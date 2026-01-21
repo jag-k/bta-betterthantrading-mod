@@ -1,0 +1,57 @@
+# Guidebook
+guidebook.betterthantrading.trading=Trading
+
+# Blocks
+tile.betterthantrading.junkdealer.name=Junk Dealer
+tile.betterthantrading.junkdealer.desc=Sells your unwanted items for coins at low prices
+tile.betterthantrading.tradeblock.name=Trade Block
+tile.betterthantrading.tradeblock.desc=List your items on the market and collect earnings
+tile.betterthantrading.market.name=Market
+tile.betterthantrading.market.desc=Browse and buy items listed by other players
+tile.betterthantrading.donationmachine.name=Donation Machine
+tile.betterthantrading.donationmachine.desc=Donate coins to advance the era and view the leaderboard
+
+# Items
+item.betterthantrading.coin.name=Gold Coin
+item.betterthantrading.coin.desc=The universal currency for trading
+
+# GUI
+gui.betterthantrading.wallet.name=Wallet
+
+item.betterthantrading.class_token_miner.name=Miner's Certificate
+item.betterthantrading.class_token_miner.desc=Use to become a Miner. 100% drop chance from ores. Others only get 30%!
+
+item.betterthantrading.class_token_lumberjack.name=Lumberjack's Certificate
+item.betterthantrading.class_token_lumberjack.desc=Use to become a Lumberjack. 100% drop chance from logs. Others only get 30%!
+
+item.betterthantrading.class_token_farmer.name=Farmer's Certificate
+item.betterthantrading.class_token_farmer.desc=Use to become a Farmer. Only Farmers can harvest crops and breed animals!
+
+item.betterthantrading.class_token_hunter.name=Hunter's Certificate
+item.betterthantrading.class_token_hunter.desc=Use to become a Hunter. Deals extra damage to mobs.
+
+item.betterthantrading.class_token_builder.name=Builder's Certificate
+item.betterthantrading.class_token_builder.desc=Use to become a Builder. Places and breaks building blocks faster.
+
+item.betterthantrading.class_token_merchant.name=Merchant's Certificate
+item.betterthantrading.class_token_merchant.desc=Use to become a Merchant. Gets better prices at shops.
+
+# Eras
+era.stone_age=Stone Age
+era.iron_age=Iron Age
+era.gold_age=Gold Age
+era.diamond_age=Diamond Age
+era.nether_age=Nether Age
+era.end_age=End Age
+
+# Messages
+msg.class.already_has=You already have a class! You cannot change it.
+msg.class.selected=You are now a %s!
+msg.mining.need_miner=You need to be a Miner to mine this!
+msg.mining.era_locked=This resource is not available in the current era!
+msg.chopping.need_lumberjack=You need to be a Lumberjack to chop trees!
+msg.economy.not_enough=Not enough coins!
+msg.economy.sold=Sold for %d coins!
+msg.economy.purchased=Purchased for %d coins!
+msg.donation.thanks=Thank you for your donation of %d coins!
+msg.market.listed=Listed on the market for %d coins!

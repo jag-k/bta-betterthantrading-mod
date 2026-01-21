@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "examplemod",
+	"id": "betterthantrading",
 	"version": "${version}",
-	"name": "Example Mod",
+	"name": "Better Than Trading",
 	"description": "This mod aims to help new BTA modders.",
 	"authors": [
-		"Turnip Labs"
+		"Jag_k"
 	],
 	"contact": {
 		"homepage": "",
@@ -16,20 +16,32 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"turniplabs.examplemod.ExampleMod"
+			"jagk.betterthantrading.BetterThanTrading"
+		],
+		"client": [
+			"jagk.betterthantrading.BetterThanTradingClient"
 		],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"jagk.betterthantrading.BetterThanTrading"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"jagk.betterthantrading.BetterThanTrading"
+		],
+		"afterClientStart": [
+			"jagk.betterthantrading.BetterThanTradingClient"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"jagk.betterthantrading.BetterThanTrading"
+		],
+		"initModels": [
+			"jagk.betterthantrading.BetterThanTradingModelEntrypoint"
+		],
+		"modmenu": [
+			"jagk.betterthantrading.ModMenuIntegration"
 		]
 	},
 	"mixins": [
-		"examplemod.mixins.json"
+		"betterthantrading.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
